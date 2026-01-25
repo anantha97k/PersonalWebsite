@@ -71,7 +71,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: `Built a CSV upload system, processing files asynchronously
                 and notify users upon completion in realtime.`,
       skills: ['Python', 'FastAPI', 'SQLite', 'Redis', 'Python RQ', 'React'],
-      linkSource: "https://github.com/anantha97k/CSV-Processing-Backend",
+      linkSource: "https://github.com/anantha97k/CSV-Processing",
       image: "/CSV.png",
     },
     {
