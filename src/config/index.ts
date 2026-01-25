@@ -27,7 +27,6 @@ export const SITE_CONTENT: SiteContent = {
     summary:
       `Electrical Engineering graduate pursuing a career in Full-Stack Development, with experience in ReactJS, Node.js, Express, PostgreSQL, and MongoDB. 
       Familiar with CI/CD workflows, Docker, and deploying full-stack applications on Render and Vercel.`,
-    email: "anantha97k@gmail.com",
   },
   education: [
     {
@@ -64,7 +63,7 @@ export const SITE_CONTENT: SiteContent = {
       skills: [
         'React', 'Typescript', 'react-router', 'Redux', 'Shadcn UI', 'Tailwind',
       ],
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/anantha97k/AnimeSearch-App",
       image: "/SearchApp.png",
     },
     {
@@ -72,21 +71,21 @@ export const SITE_CONTENT: SiteContent = {
       summary: `Built a CSV upload system, processing files asynchronously
                 and notify users upon completion in realtime.`,
       skills: ['Python', 'FastAPI', 'SQLite', 'Redis', 'Python RQ', 'React'],
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/anantha97k/CSV-Processing-Backend",
       image: "/CSV.png",
     },
     {
       name: "Todo-a-List",
       summary: "Developed a Todo List application using the Express framework, with the MVC architecture",
       skills: ['NodeJS', 'Prisma ORM', 'Docker'],
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/anantha97k/todo-list",
       image: "/todos.png",
     },
     {
       name: "Resume Maker",
       summary: "Enables users to create, view, update, and manage resumes",
       skills: ['React', 'react-router', 'Express', 'PostgreSQL', 'MongoDB', 'Render Deployment'],
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/anantha97k/monorepo",
       image: "/Resume.png",
     },
     {
@@ -94,7 +93,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: `Built an AI-powered sales assistant with n8n frontend integration, 
                 triggers lead booking, and sends automated emails in a complete end-to-end workflow.`,
       skills: ['n8n', 'React'],
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/anantha97k/AI-Chatbot",
       image: "/n8n.png",
     },
   ],
