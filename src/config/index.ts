@@ -1,98 +1,123 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Kumar Portfolio",
+  author: "Kumar",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Engineer",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/ak-pic.png",
   navLinks: [
-    { text: "Experience", href: "#experience" },
+    { text: "Education", href: "#education" },
     { text: "Projects", href: "#projects" },
+    { text: "Experience", href: "#experience" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/ananthakumar28" },
     { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Ananthakumar [Kumar]",
+    specialty: "FullStack Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      `Electrical Engineering graduate pursuing a career in Full-Stack Development, with experience in ReactJS, Node.js, Express, PostgreSQL, and MongoDB. 
+      Familiar with CI/CD workflows, Docker, and deploying full-stack applications on Render and Vercel.`,
+    email: "anantha97k@gmail.com",
   },
-  experience: [
+  education: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "",
+      position: "Skills",
+      startDate: "English, Bahasa Melayu",
+      endDate: "Professional Competency",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        `Programming Skills : Typescript, Python, C, C++, HTML, CSS, Javascript, PostgreSQL, MongoDB, SQLite, git`,
+        "Frameworks/Library : ReactJS, Redux, NodeJS. Express, Redis, FastAPI, Docker, Tailwind, Shadcn UI, Material UI, Jest, Vitest",
+        "Hosting/Deployment : Render, Vercel",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "",
+      position: "Bac. Hons Electronic and Communications Engineering, CGPA: 3.02",
+      startDate: "Oct 2018 - Jan 2023,",
+      endDate: "Sg. Long",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        `Courses such as Wireless Communications, Object-Oriented Programming,
+          Procedural Programming, Computer Architecture and Assembly Programming etc.`,
+          `Final Year Project : Performance Analysis of MIMO Communication Systems using MATLAB & simulink`,
+          `Developed and implemented models of MIMO Communication Systems
+          to analyse various Modulation and Encoding schemes along with Diversity techniques.`,
+          `Visualized the simulated data using graphs to demonstrate the bit error rate (BER)
+          performance of different MIMO models`
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
+      name: "Anime Search App",
+      summary: "Built a two-page React + TypeScript SPA with Redux-managed state, and instant search.",
+      skills: [
+        'React', 'Typescript', 'react-router', 'Redux', 'Shadcn UI', 'Tailwind',
+      ],
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      image: "/SearchApp.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
+      name: "Data processing",
+      summary: `Built a CSV upload system, processing files asynchronously
+                and notify users upon completion in realtime.`,
+      skills: ['Python', 'FastAPI', 'SQLite', 'Redis', 'Python RQ', 'React'],
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      image: "/CSV.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
+      name: "Todo-a-List",
+      summary: "Developed a Todo List application using the Express framework, with the MVC architecture",
+      skills: ['NodeJS', 'Prisma ORM', 'Docker'],
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      image: "/todos.png",
+    },
+    {
+      name: "Resume Maker",
+      summary: "Enables users to create, view, update, and manage resumes",
+      skills: ['React', 'react-router', 'Express', 'PostgreSQL', 'MongoDB', 'Render Deployment'],
+      linkSource: "https://github.com/immois/astro-zen",
+      image: "/Resume.png",
+    },
+    {
+      name: "AI chatbot",
+      summary: `Built an AI-powered sales assistant with n8n frontend integration, 
+                triggers lead booking, and sends automated emails in a complete end-to-end workflow.`,
+      skills: ['n8n', 'React'],
+      linkSource: "https://github.com/immois/astro-zen",
+      image: "/n8n.png",
     },
   ],
-  about: {
-    description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+  experience : [
+    {
+      company: "Train & Place Up-skilling Program",
+      position: "Software Engineering Track",
+      startDate: "USAINS Holding Sdn.Bhd.",
+      endDate: "",
+      summary: [
+        `Technical Courses such as Statistics for Data Mining, JavaScript, Software Development
+and Testing, Database Access with SQL, Website Development with HTML5 and CSS3, etc.`,
+        `Soft skills Courses such as Change Management, Technical Communication &
+Presentation Skills, etc.`,
+      ],
+  },
+],
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
-    image: "/alejandro-big.jpg",
+  about: {
+    description: [
+      `I am an aspiring Software Engineer and Full-Stack Developer with a strong foundation for building scalable, user-focused applications. With hands-on experience from a structured Software Engineering upskilling program, I combine analytical problem-solving with practical coding expertise. I am comfortable working across both frontend and backend systems.`,
+
+      `I have applied my skills to end-to-end projects that demonstrate performance, reliability, and clean architecture.These experiences have strengthened my focus on intelligent automation, real-time systems, and maintainable code, and I am excited to contribute to dynamic development projects.`
+    ]
   },
 };
-
-// #5755ff

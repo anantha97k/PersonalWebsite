@@ -9,14 +9,14 @@ const { siteLogo, navLinks } = Astro.props;
 ---
 
 <header
-  class="sticky top-0 z-50 mx-auto flex max-w-5xl animate-slide-in justify-between bg-black px-5 py-6"
+  class="sticky top-0 z-50 mx-auto flex max-w-5xl animate-slide-in justify-between bg-zinc-100 px-5 py-6 flex items-center"
 >
   <a href="/" aria-label="Home link">
     <Image
       class="rounded-full"
       src={siteLogo}
-      width="45"
-      height="45"
+      width="75"
+      height="75"
       alt="website logo"
     />
   </a>
@@ -76,9 +76,9 @@ const { siteLogo, navLinks } = Astro.props;
         if (entry.isIntersecting) {
           navItems.forEach((item) => {
             if (item.getAttribute("href") === `#${entry.target.id}`) {
-              item.classList.add("text-white", "md:after:opacity-100");
+              item.classList.add("text-blue-500", "md:after:opacity-100");
             } else {
-              item.classList.remove("text-white", "md:after:opacity-100");
+              item.classList.remove("text-blue-500", "md:after:opacity-100");
             }
           });
         }

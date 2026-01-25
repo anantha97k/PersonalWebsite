@@ -4,14 +4,13 @@ export interface SiteConfig extends HeaderProps {
   lang: string;
   author: string;
   socialLinks: { text: string; href: string }[];
-  socialImage: string;
-  canonicalURL?: string;
 }
 
 export interface SiteContent {
   hero: HeroProps;
-  experience: ExperienceProps[];
+  education: ExperienceProps[];
   projects: ProjectProps[];
+  experience: ExperienceProps[];
   about: AboutProps;
 }
 
@@ -33,14 +32,13 @@ export interface ExperienceProps {
 export interface ProjectProps {
   name: string;
   summary: string;
+  skills: string[],
   image: string;
-  linkPreview?: string;
   linkSource?: string;
 }
 
 export interface AboutProps {
-  description: string;
-  image: string;
+  description: string[];
 }
 
 export interface HeaderProps {
