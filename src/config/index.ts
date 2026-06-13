@@ -99,7 +99,7 @@ export const SITE_CONTENT: SiteContent = {
               Redis message queues with IP-based rate limiting, processing multiple concurrent requests `,
       skills: ['Python', 'FastAPI', 'JWT', 'AWS S3', 'CloudFront', 'Redis', 'Celery'],
       linkSource: "https://github.com/anantha97k/Image-Processing",
-      image: "",
+      image: "/image-processing.png",
     },
   ],
   experience : [
