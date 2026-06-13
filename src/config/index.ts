@@ -25,8 +25,9 @@ export const SITE_CONTENT: SiteContent = {
     name: "Ananthakumar [Kumar]",
     specialty: "FullStack Developer",
     summary:
-      `Electrical Engineering graduate pursuing a career in Full-Stack Development, with experience in ReactJS, Node.js, Express, PostgreSQL, and MongoDB. 
-      Familiar with CI/CD workflows, Docker, and deploying full-stack applications on Render and Vercel.`,
+      `Full-Stack Software Engineer with expertise in Python, FastAPI, React.js, and cloud technologies.
+       Experienced in building RESTful APIs, implementing asynchronous processing systems, and
+       deploying scalable applications using AWS, Redis, and PostgreSQL.`,
   },
   education: [
     {
@@ -35,9 +36,11 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "English, Bahasa Melayu",
       endDate: "Professional Competency",
       summary: [
-        `Programming Skills : Typescript, Python, C, C++, HTML, CSS, Javascript, PostgreSQL, MongoDB, SQLite, git`,
-        "Frameworks/Library : ReactJS, Redux, NodeJS. Express, Redis, FastAPI, Docker, Tailwind, Shadcn UI, Material UI, Jest, Vitest",
-        "Hosting/Deployment : Render, Vercel",
+        "Languages: Python, JavaScript, TypeScript, C/C++, HTML5, CSS3",
+        "Frameworks & Libraries: React.js, Redux, Node.js, Express.js, FastAPI, Tailwind CSS, Celery",
+        "Backend Technologies: RESTful APIs, WebSockets, JWT Authentication, Redis, Message Queues, Asynchronous Processing, Microservices",
+        "Cloud & DevOps: AWS, Docker, CI/CD, Git, GitHub",
+        "Databases: PostgreSQL, MySQL, MongoDB, SQLite "
       ],
     },
     {
@@ -89,12 +92,14 @@ export const SITE_CONTENT: SiteContent = {
       image: "/Resume.png",
     },
     {
-      name: "AI chatbot",
-      summary: `Built an AI-powered sales assistant with n8n frontend integration, 
-                triggers lead booking, and sends automated emails in a complete end-to-end workflow.`,
-      skills: ['n8n', 'React'],
-      linkSource: "https://github.com/anantha97k/AI-Chatbot",
-      image: "/n8n.png",
+      name: "Image Processing Service",
+      summary: `Developed production-grade RESTful API with JWT authentication, AWS S3 object storage, and
+              CloudFront CDN caching, reducing image delivery latency,
+              Implemented asynchronous image transformation pipeline using Celery distributed workers and
+              Redis message queues with IP-based rate limiting, processing multiple concurrent requests `,
+      skills: ['Python', 'FastAPI', 'JWT', 'AWS S3', 'CloudFront', 'Redis', 'Celery'],
+      linkSource: "https://github.com/anantha97k/Image-Processing",
+      image: "",
     },
   ],
   experience : [
