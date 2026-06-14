@@ -33,8 +33,8 @@ export const SITE_CONTENT: SiteContent = {
     {
       company: "",
       position: "Skills",
-      startDate: "English, Bahasa Melayu",
-      endDate: "Professional Competency",
+      startDate: "",
+      endDate: "",
       summary: [
         "Languages: Python, JavaScript, TypeScript, C/C++, HTML5, CSS3",
         "Frameworks & Libraries: React.js, Redux, Node.js, Express.js, FastAPI, Tailwind CSS, Celery",
@@ -93,10 +93,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "Image Processing Service",
-      summary: `Developed production-grade RESTful API with JWT authentication, AWS S3 object storage, and
-              CloudFront CDN caching, reducing image delivery latency,
-              Implemented asynchronous image transformation pipeline using Celery distributed workers and
-              Redis message queues with IP-based rate limiting, processing multiple concurrent requests `,
+      summary: `Developed a Image Processing application for simple demonstration to illustrate skills in caching, AWS, asynchronous processing`,
       skills: ['Python', 'FastAPI', 'JWT', 'AWS S3', 'CloudFront', 'Redis', 'Celery'],
       linkSource: "https://github.com/anantha97k/Image-Processing",
       image: "/image-processing.png",
